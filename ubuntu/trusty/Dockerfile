@@ -1,4 +1,4 @@
-FROM larvacms/ubuntu:trusty
+FROM larvacms/ubuntu:14.04
 
 LABEL maintainer="support@larvacent.com"
 

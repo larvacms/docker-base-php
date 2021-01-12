@@ -1,4 +1,4 @@
-FROM larvacms/ubuntu:bionic
+FROM larvacms/ubuntu:18.04
 
 LABEL maintainer="support@larvacent.com"
 

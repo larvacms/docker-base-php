@@ -1,4 +1,4 @@
-FROM larvacms/ubuntu:cosmic
+FROM larvacms/ubuntu:21.04
 
 LABEL maintainer="support@larvacent.com"
 

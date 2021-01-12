@@ -13,8 +13,9 @@ env:
   - OS_NAME=ubuntu OS_VERSION=14.04 OS_SUITE=trusty
   - OS_NAME=ubuntu OS_VERSION=16.04 OS_SUITE=xenial
   - OS_NAME=ubuntu OS_VERSION=18.04 OS_SUITE=bionic
-  - OS_NAME=ubuntu OS_VERSION=18.10 OS_SUITE=cosmic
-
+  - OS_NAME=ubuntu OS_VERSION=20.04 OS_SUITE=focal
+  - OS_NAME=ubuntu OS_VERSION=20.10 OS_SUITE=groovy
+  - OS_NAME=ubuntu OS_VERSION=21.04 OS_SUITE=hirsute
 before_install:
   - export DOCKER_COMPOSE_VERSION=1.23.2
   - sudo rm /usr/local/bin/docker-compose
