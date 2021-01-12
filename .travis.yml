@@ -17,7 +17,7 @@ env:
   - OS_NAME=ubuntu OS_VERSION=20.10 OS_SUITE=groovy
   - OS_NAME=ubuntu OS_VERSION=21.04 OS_SUITE=hirsute
 before_install:
-  - export DOCKER_COMPOSE_VERSION=1.23.2
+  - export DOCKER_COMPOSE_VERSION=1.27.4
   - sudo rm /usr/local/bin/docker-compose
   - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
   - chmod +x docker-compose
