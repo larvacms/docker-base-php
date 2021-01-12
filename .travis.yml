@@ -9,6 +9,10 @@ env:
 #   Alpine
   - OS_NAME=alpine OS_VERSION=3.7 OS_SUITE=3.7
   - OS_NAME=alpine OS_VERSION=3.8 OS_SUITE=3.8
+  - OS_NAME=alpine OS_VERSION=3.9 OS_SUITE=3.9
+  - OS_NAME=alpine OS_VERSION=3.10 OS_SUITE=3.10
+  - OS_NAME=alpine OS_VERSION=3.11 OS_SUITE=3.11
+  - OS_NAME=alpine OS_VERSION=3.12 OS_SUITE=3.12
 #   Ubuntu
   - OS_NAME=ubuntu OS_VERSION=14.04 OS_SUITE=trusty
   - OS_NAME=ubuntu OS_VERSION=16.04 OS_SUITE=xenial
